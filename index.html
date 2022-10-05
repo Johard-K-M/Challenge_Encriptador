@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="header_footer.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+    
+
+<body> 
+    
+    <header>
+        <div class="container">
+            <img src="imagenes/otro logo png.png" alt="Logo de alura con la inicial de la letra A" class="logo">
+            <p class="titulo">Encriptador de<br>Alura </p>
+        </div>
+    </header>
+    
+   <main>
+    <div class="big_container">
+        <section class="entradas">
+            <div class="container">
+                <textarea id="mensaje" placeholder="Ingrese el texto aquí" autofocus></textarea> 
+                <div class="advertencia">
+                    <img src="imagenes/warning.png" alt="warning logo" id="wlogo">
+                    <p>Solo palabras en minuscula y sin acentos.</p>
+                </div>
+                <div class="botones-e">
+                    <button class="boton-e" id="encriptar">Encriptar</button>
+                    <button class="boton-e" id="desencriptar">Desencriptar</button>
+                </div>
+            </div>
+        </section>
+    
+        
+    
+        <section id="salida_1">
+            <div class="container">
+                <div class="texto">
+                    <img id="muneco" src="imagenes/Muñeco.png" alt="Muñeco">
+                    <p>Ningún mensaje fue encontrado</p>       
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>           
+                </div>
+            </div>
+        </section>
+        
+        <section id="salida_2">
+            <div class="container">
+                <div id="salida">               
+                    <textarea id="resultado" placeholder="Resultado..."></textarea>
+                    <button id="copiar">Copiar</button>
+                    <!--<button id="escuchar">Escuchar</button>-->  
+                </div>
+            </div>
+        </section>
+    </div>
+   </main> 
+    
+
+    <footer>
+        <div class="container">
+            <p>© Copyrigth ONE-Oracle Next Education-2022</p>
+        </div>        
+    </footer>
+
+    <script src="code_copy_2.js"></script>
+</body>
+
+</html>

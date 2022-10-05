@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: sans-serif;
+    
+}
+
+.container{
+    max-width: 1500px;
+    margin: auto;
+}
+
+header{
+    background-color: #0A3871;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    /* padding: 1em 1em; */
+    padding: 2em 1.2em;
+    
+}
+
+header .logo{
+    
+    height: 4em;
+}
+
+header .titulo{
+    font-family: "Verdana", sans-serif;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+footer{
+    background-color: #0A3871;
+
+}
+footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 120px;
+    color: white;
+    padding-bottom: 30px;
+    
+}
+
+
+@media (min-width: 768px){
+
+    header .container{
+        padding: 2em 1.2em;
+    }
+
+
+    footer .container{
+        height: 120px;
+    }
+}
+
+
+@media (min-width: 1440px){
+
+
+    .container{
+        max-width: initial;
+        margin: initial; 
+    }
+
+    header .container{
+        max-width: 1500px;
+        margin: auto;        
+    }
+
+
+    footer .container{
+        max-width: 1500px;
+        margin: auto;
+    }
+}
+
+
+
+
+
